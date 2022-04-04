@@ -10,8 +10,8 @@ import os
 client = amino.Client()
 def SID(self, email: str, password: str, device: str):
    client=amino.Client(deviceId=device)
-   email=input("Email: ")
-   password=input("Password: ")
+   email=email
+   password=password
    client.login(email,password)
    SID = client.sid
    return SID
