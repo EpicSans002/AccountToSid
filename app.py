@@ -8,7 +8,7 @@ import os
 
 
 client = amino.Client()
-def SID(self, email: str, password: str, device: str):
+def SID(email: str, password: str, device: str):
    client=amino.Client(deviceId=device)
    email=email
    password=password
